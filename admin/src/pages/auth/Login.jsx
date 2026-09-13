@@ -104,6 +104,23 @@ const Login = () => {
                         >
                             Login
                         </Button>
+                        <Button
+                                type="button"
+                                variant="text"
+                                sx={{
+                                    display: "block",
+                                    mt: 1,
+                                    ml: "auto",
+                                    fontWeight: 600,
+                                    textTransform: "none",
+                                }}
+                                onClick={() => {
+                                    
+                                    navigate("/forgot-password");
+                                }}
+                            >
+                                Forgot Password?
+                            </Button>
                     </Box>
 
                 </CardContent>
